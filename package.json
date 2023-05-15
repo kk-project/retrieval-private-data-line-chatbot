@@ -1,0 +1,26 @@
+{
+  "name": "retrieval-private-data-line-chatbot",
+  "version": "1.0.0",
+  "description": "これは、ChatGPT という強力な言語モデルを利用し、プライベートデータを取り扱うためのベクトルデータベースを使用した LINE チャットボットアプリケーションです。このアプリケーションでは、ChatGPT モデルと対話しながら、ユーザーのプライベートデータを安全に管理することができます。",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kenji kawada",
+  "license": "MIT",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "langchain": "^0.0.75",
+    "openai": "^3.2.1"
+  },
+  "volta": {
+    "node": "18.16.0"
+  }
+}
